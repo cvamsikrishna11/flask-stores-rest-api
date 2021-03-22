@@ -3,7 +3,7 @@ from flask_restful import Api
 from flask_jwt import JWT
 import os
 from datetime import timedelta
-from security import authenticate, identity
+from src.security import authenticate, identity
 from src.resources.user import UserRegister
 from src.resources.item import Item, ItemList
 from src.resources.store import Store, StoreList
